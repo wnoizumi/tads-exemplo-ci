@@ -1,7 +1,7 @@
 node {
    def mvnHome
    stage('Preparacao') {
-      git credentialsId: 'jenkins_id', url: 'https://github.com/wnoizumi/tads-exemplo-ci'
+      git 'https://github.com/wnoizumi/tads-exemplo-ci'
       mvnHome = tool 'M3'
    }
    stage('Construcao') {
