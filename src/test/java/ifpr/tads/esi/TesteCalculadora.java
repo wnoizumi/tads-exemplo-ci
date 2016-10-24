@@ -7,7 +7,7 @@ public class TesteCalculadora {
 	
 	@Test
 	public void testeSoma() {
-		Assert.assertEquals(4, Calculadora.soma(2., 3.), 0.001);
+		Assert.assertEquals(5, Calculadora.soma(2., 3.), 0.001);
 	}
 	
 	@Test
